@@ -228,9 +228,3 @@ describe('Testing challenge 4', () => {
         expect(hasChildrenEntries(characters, 'Jon S.')).toBeFalsy();
     });
 });
-
-describe('Testing challenge 5', () => {
-    test('It should return the number of characters in the array', () => {
-        expect(totalCharacters(characters)).toStrictEqual(27);
-    });
-});
